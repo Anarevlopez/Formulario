@@ -7,10 +7,11 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="General">
-      <div>
-        <form action="formulario">
-          <h1>Formulario</h1>
+    <form action="formulario">
+      <fieldset class="contenedor">
+        <legend>Formulario</legend>
+        <div class="caja">
+          <h1>¿Quien es Usted?</h1>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" />
           <br />
@@ -26,18 +27,17 @@
           </select>
           <br /><br />
           <textarea id="comentario" name="mensaje" rows="10" cols="30">
-Escribe tu comentario aquí
-      </textarea
+Escribe tu comentario aquí</textarea
           >
-          <br /><br />
+          <br />
           <button
             type="button"
             onclick="alert('Tu información ha sido enviada')"
           >
             Enviar
           </button>
-        </form>
-      </div>
-    </div>
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>

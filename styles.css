@@ -1,16 +1,6 @@
-.General {
-  background-color: black;
-  border: solid 3px black;
-  margin: 50px 50px 50px 50px;
-  padding: 50px 50px 50px 50px;
-  color: white;
+h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  text-align: center;
 }
-div {
-  text-align: justify;
-}
-
 input,
 label,
 button,
@@ -19,8 +9,39 @@ textarea {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-option,
-section {
-  height: 100px;
-  width: 1000px;
+label {
+  text-decoration: underline;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: double 6px black;
+}
+
+.caja {
+  text-align: justify;
+}
+
+legend {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+button {
+  background-color: gray;
+  border: solid 3px rgba(255, 255, 255, 0.724);
+  border-radius: 5%;
+  color: rgba(255, 255, 255, 0.724);
+  padding: 5px 75px 5px 75px;
+  font-size: 20px;
+}
+
+button:hover {
+  font-weight: bold;
+  border-color: gray;
+  color: gray;
+  background-color: white;
 }
