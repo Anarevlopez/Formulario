@@ -1,0 +1,26 @@
+.General {
+  background-color: black;
+  border: solid 3px black;
+  margin: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+div {
+  text-align: justify;
+}
+
+input,
+label,
+button,
+textarea {
+  margin: 0px 10px 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+option,
+section {
+  height: 100px;
+  width: 1000px;
+}
